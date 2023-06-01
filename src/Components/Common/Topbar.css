@@ -1,0 +1,11 @@
+.admin_club_header {
+  height: 80px;
+  background-color: #111827;
+  padding: 10px 32px;
+  gap: 10px;
+  color: #e5e7eb;
+  font-family: "Poppins";
+  font-style: italic;
+  font-weight: 600;
+  font-size: 24px;
+}
