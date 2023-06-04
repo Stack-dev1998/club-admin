@@ -1,9 +1,12 @@
 .admin_club_sidebar {
   background-color: #374151;
-  height: 100vh;
+  height: 90vh;
   width: 267px;
   color: #ffffff;
   padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .admin_club_sidebar .nav-link {
   font-size: 20px;
@@ -17,7 +20,7 @@
   background: #1f2937;
   border-radius: 8px;
 }
-.admin_club_sidebar .active a {
+.admin_club_sidebar .active span {
   background: linear-gradient(
     90deg,
     #06b6d4 0.17%,

@@ -7,12 +7,20 @@ export default function Sidebar() {
       <ul className="nav flex-column">
         <li className="nav-item active">
           <Link className="nav-link " to="/">
-            Team
+            <span>Team</span>
           </Link>
         </li>
         <li className="nav-item">
           <Link className="nav-link " to="/cards">
-            Cards
+          <span>Cards</span>
+
+          </Link>
+        </li>
+      </ul>
+      <ul className="nav flex-column">
+        <li className="nav-item ">
+          <Link className="nav-link " to="/">
+            <span>Club Profile</span>
           </Link>
         </li>
       </ul>
