@@ -1,12 +1,7 @@
 import crossIcon from '../../Assets/Icons/cross-icon.svg'
-import flag from "../../Assets/Icons/flag.svg";
-import edit from "../../Assets/Icons/edit.svg";
-import trash from "../../Assets/Icons/trash.svg";
-import selectFileIcon from "../../Assets/Icons/select-file-icon.svg";
-import addIcon from "../../Assets/Icons/add.svg";
 import { useState } from 'react';
 
-export default function DeletePlayerModal() {
+const DeletePlayerModal = () => {
     let payload = { id: 1, name: 'Max Mustermann', age: 31, nationality: "De" };
     const [list, setList] = useState([])
     const [isDelete, setIsDelete] = useState(false)
@@ -20,7 +15,7 @@ export default function DeletePlayerModal() {
                             <div className='text-center flex-grow-1'>
                                 <span>Delete Player</span>
                             </div>
-                            <img src={crossIcon} className='cursor_pointer' data-dismiss="modal" />
+                            <img src={crossIcon} lang='cross icon' className='cursor_pointer' data-dismiss="modal" />
                         </div>
 
                         <div className="my-2">
@@ -47,7 +42,7 @@ export default function DeletePlayerModal() {
                             <div className='text-center flex-grow-1'>
                                 <span>Delete Player</span>
                             </div>
-                            <img src={crossIcon} className='cursor_pointer' data-dismiss="modal" />
+                            <img src={crossIcon} alt='scross icon' className='cursor_pointer' data-dismiss="modal" />
                         </div>
 
                         <div className="my-2">
@@ -70,3 +65,5 @@ export default function DeletePlayerModal() {
         </div>
     );
 }
+
+export default DeletePlayerModal

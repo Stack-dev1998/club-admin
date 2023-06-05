@@ -1,4 +1,4 @@
-@import "../variable.css";
+@import "../../variable.css";
 
 .club_admin_section {
   background-color: #1f2937;
@@ -22,8 +22,9 @@
   height: 40px;
 }
 .club_admin_section .select {
-  width: 274px;
+  width: 220px;
   height: 40px;
+  font-weight: 500;
   text-transform:uppercase;
   background: #374151;
   border-radius: 100px;
@@ -31,10 +32,9 @@
   color: #d1d5db;
   border: none;
   appearance: none;
-  background-image: url('../Assets/Icons/select-icon.svg');
+  background-image: url('../../Assets/Icons/select-icon.svg');
   background-position: 92%;
   background-repeat: no-repeat;
-  width: 220px;
 }
 
 

@@ -1,8 +1,8 @@
-import {  Outlet } from "react-router-dom";
-import Topbar from "./Topbar";
-import Sidebar from "./Sidebar";
+import { Outlet } from "react-router-dom";
+import Topbar from "../Topbar/Topbar";
+import Sidebar from "../Sidebar/Sidebar";
 
-export default function ClubLayout() {
+const ClubLayout = () => {
     return (
         <>
             <Topbar />
@@ -15,3 +15,5 @@ export default function ClubLayout() {
         </>
     );
 }
+
+export default ClubLayout

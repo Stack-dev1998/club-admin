@@ -1,7 +1,7 @@
 import "./Sidebar.css";
 import { Link } from "react-router-dom";
 
-export default function Sidebar() {
+const Sidebar = () => {
   return (
     <aside className="admin_club_sidebar">
       <ul className="nav flex-column">
@@ -12,7 +12,7 @@ export default function Sidebar() {
         </li>
         <li className="nav-item">
           <Link className="nav-link " to="/cards">
-          <span>Cards</span>
+            <span>Cards</span>
 
           </Link>
         </li>
@@ -27,3 +27,4 @@ export default function Sidebar() {
     </aside>
   );
 }
+export default Sidebar

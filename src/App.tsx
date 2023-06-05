@@ -1,9 +1,10 @@
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import ClubLayout from "./Components/Common/ClubLayout/ClubLayout";
 import Team from "./Pages/Team";
-import Cards from "./Pages/Cards";
-import NotFound from "./Pages/NotFound";
-import ClubLayout from "./Components/Common/ClubLayout";
+import Cards from "./Pages/Cards/Index";
+import NotFound from "./Pages/NotFound/NotFound";
+
 function App() {
   return (
     <BrowserRouter>
